@@ -14,7 +14,7 @@ Spring Boot做为下一代 web 框架，Spring Cloud 作为最新最火的微服
 支持Rest+Ribbon/Feign的服务消费与客户端负载均衡  
 采用Zuul网关、Sleuth追踪  
 提供统一的配置中心Config  
-# Docker  
+* Docker  
 mysql、redis均采用docker安装  
 微服务通过jar\war部署、linux服务部署、docker云部署  
 
