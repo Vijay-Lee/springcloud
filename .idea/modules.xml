@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-order/app-order.iml" filepath="$PROJECT_DIR$/app-order/app-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-user/app-user.iml" filepath="$PROJECT_DIR$/app-user/app-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infra-discovery/infra-discovery.iml" filepath="$PROJECT_DIR$/infra-discovery/infra-discovery.iml" />
+    </modules>
+  </component>
+</project>
