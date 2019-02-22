@@ -18,6 +18,6 @@ Spring Boot做为下一代 web 框架，Spring Cloud 作为最新最火的微服
 mysql、redis均采用docker安装  
 微服务通过jar\war部署、linux服务部署、docker云部署  
 
-
+** 欢迎来喷 **
 
 
