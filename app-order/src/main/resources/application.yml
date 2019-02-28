@@ -16,6 +16,13 @@ eureka:
       defaultZone: http://admin:admin123@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+    metadata-map:
+      key01: value01
+      key02: value02
+
+feign:
+  hystrix:
+    enabled: true
 spring:
   application:
     name: app-order

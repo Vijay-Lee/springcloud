@@ -1,0 +1,257 @@
+[WARN ] 2019-02-28 17:18:17 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:18:17 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:18:17 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:18:17 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 17:18:17 [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:18:17 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_APP-USER/DESKTOP-2UTN3UE:app-user:9091 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 17:18:17 [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 17:21:22 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:21:22 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:47:08 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:47:08 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:52:23 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:52:23 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:52:26 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:52:26 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 17:52:23 [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:23 [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:23 [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:23 [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:26 [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:26 [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:26 [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 17:52:26 [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 18:49:41 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 18:49:41 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 18:49:50 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 18:49:50 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 18:49:41 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 18:49:41 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 18:49:41 [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 18:49:41 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_APP-USER/DESKTOP-2UTN3UE:app-user:9091 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 18:49:41 [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 18:49:50 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 18:49:50 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 19:05:55 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:05:55 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:06:00 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:06:00 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:05:55 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:05:55 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 19:05:55 [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:05:55 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_APP-USER/DESKTOP-2UTN3UE:app-user:9091 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 19:05:55 [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 19:06:00 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:06:00 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 19:09:09 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:09:09 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:09:13 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:09:13 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:09:09 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:09:09 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 19:09:13 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:09:13 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 19:09:09 [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 19:09:09 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_APP-USER/DESKTOP-2UTN3UE:app-user:9091 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 19:09:09 [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 19:11:49 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:11:49 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:12:20 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:12:20 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:19:57 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:19:57 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:40:30 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 19:40:30 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:28:05 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:28:05 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:36:34 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:36:34 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:37:05 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:37:05 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:44:56 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:44:56 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:53:12 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:53:12 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:16:59 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:16:59 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:18:19 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:18:19 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:18:19 [main] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 21:18:19 [main] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 21:18:19 [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 21:18:19 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_APP-ORDER/DESKTOP-2UTN3UE:app-order:9092 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 21:18:19 [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 2019-02-28 21:22:49 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:22:49 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:23:46 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 21:23:46 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:28:55 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:28:55 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:30:11 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:30:11 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:34:58 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:34:58 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:40:43 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 22:40:43 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 23:24:12 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 23:24:12 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

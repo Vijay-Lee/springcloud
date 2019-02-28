@@ -22,6 +22,8 @@
 		<module>app-user</module>
 		<module>app-order</module>
 		<module>infra-discovery</module>
+		<module>infra-hystrix</module>
+		<module>infra-gateway</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>

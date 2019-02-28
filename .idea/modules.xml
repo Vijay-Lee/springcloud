@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/app-user/app-user.iml" filepath="$PROJECT_DIR$/app-user/app-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/infra-discovery/infra-discovery.iml" filepath="$PROJECT_DIR$/infra-discovery/infra-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infra-gateway/infra-gateway.iml" filepath="$PROJECT_DIR$/infra-gateway/infra-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infra-hystrix/infra-hystrix.iml" filepath="$PROJECT_DIR$/infra-hystrix/infra-hystrix.iml" />
     </modules>
   </component>
 </project>

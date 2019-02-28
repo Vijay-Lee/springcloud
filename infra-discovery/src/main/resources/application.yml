@@ -7,6 +7,8 @@ security:
     name: admin
     password: admin123
 eureka:
+  server:
+    enable-self-preservation: false
   instance:
     hostname: localhost
   client:

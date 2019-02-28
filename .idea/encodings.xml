@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/app-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infra-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infra-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infra-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infra-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infra-hystrix" charset="UTF-8" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 server:
-  port: 9091
+  port: 9191
   context.path: /
   session:
     timeout: 100

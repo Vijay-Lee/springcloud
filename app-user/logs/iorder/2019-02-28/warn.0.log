@@ -1,0 +1,10 @@
+[WARN ] 2019-02-28 20:22:52 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:22:52 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:22:52 [Thread-4] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 20:22:52 [Thread-4] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 20:22:52 [Thread-4] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 20:24:16 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:24:16 [main] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2019-02-28 20:24:16 [Thread-4] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+[WARN ] 2019-02-28 20:24:16 [Thread-4] c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+[WARN ] 2019-02-28 20:24:16 [Thread-4] c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
