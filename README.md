@@ -3,14 +3,14 @@ Spring boot + Spring cloud实现微服务
 
 ## 项目说明  
 服务基于idea、jdk8 、Maven 、spring cloud Camden.SR7、docker、centos 7开发实现  
-启动顺序（建议run dashboard)：
-服务发现(diccovery):http://localhost:8761/
-网关(gateway):http://localhost:8041/routes
-配置(config):
-监控追踪(zipkin):http://localhost:9411/
-Hystrix监控(hystrix):http://localhost:8030/hystrix
-用户服务(user):http://localhost:9191/user/hello
-订单服务(order):http://localhost:9092/order/hello
+启动顺序（建议run dashboard)：  
+服务发现(diccovery):http://localhost:8761/  
+网关(gateway):http://localhost:8041/routes  
+配置(config):  
+监控追踪(zipkin):http://localhost:9411/  
+Hystrix监控(hystrix):http://localhost:8030/hystrix  
+用户服务(user):http://localhost:9191/user/hello  
+订单服务(order):http://localhost:9092/order/hello  
 
 # Spring boot  
 集成logback日志处理、全局异常处理、Junit单元测试、Web、thymeleaf&&freemarker模板引擎  
@@ -46,19 +46,19 @@ Springboot Actuator实现微服务监控，Hystrix command可视化监控，确�
 
 
 #友情链接
-JDK:https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-JCE:https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
-PostMan:https://www.getpostman.com/downloads/
-Maven:http://maven.apache.org/download.cgi
-github:https://github.com/
-git:https://git-scm.com/downloads
-idea:http://www.jetbrains.com/idea/
-redis:https://redis.io/download
-mysql:https://dev.mysql.com/downloads/
-activeMq:http://activemq.apache.org/download.html
-Vmware:https://my.vmware.com/cn/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/15_0
-centos:https://www.centos.org/download/
-xshell:https://xshell.en.softonic.com/
+JDK:https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  
+JCE:https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html  
+PostMan:https://www.getpostman.com/downloads/  
+Maven:http://maven.apache.org/download.cgi  
+github:https://github.com/  
+git:https://git-scm.com/downloads  
+idea:http://www.jetbrains.com/idea/  
+redis:https://redis.io/download  
+mysql:https://dev.mysql.com/downloads/  
+activeMq:http://activemq.apache.org/download.html  
+Vmware:https://my.vmware.com/cn/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/15_0  
+centos:https://www.centos.org/download/  
+xshell:https://xshell.en.softonic.com/  
 
 
 
