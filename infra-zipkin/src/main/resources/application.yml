@@ -1,0 +1,17 @@
+server:
+  port: 9411
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xiaoxuetukang/proconfig
+          search-paths:
+          username:
+          password:
+      label: master
+encrypt:
+  key: hellojaylee
+
+
+

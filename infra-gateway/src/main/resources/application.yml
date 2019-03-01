@@ -1,2 +1,25 @@
 server:
-  port: 8040
+  port: 8041
+  context.path: /
+  session:
+    timeout: 100
+  tomcat:
+    uri-encoding: utf-8
+  compression:
+    enabled: true
+
+spring:
+  application:
+    name: infra-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    app-order: /order/**
+
+

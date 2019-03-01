@@ -17,11 +17,40 @@ actuator进行Hystrix断路器的状态：http://localhost:9092/health
 Hystrix监控：localhost:9092/hystrix.stream
 Hystrix Dashboard可视化监控 ：http://localhost:8030/hystrix
 网关Zuul解决客户端直接与各个微服务通信的问题、统一认证问题、跨域请求问题
-基于过滤器实现的路由
-提供统一的配置中心Config  
-* Docker  
-mysql、redis均采用docker安装  
-微服务通过jar\war部署、linux服务部署、docker云部署  
+基于过滤器实现的路由:http://localhost:8041/app-user/user/hello
+查看服务端点：http://localhost:8041/routes
+简化配置的访问方式(yml配置)：http://localhost:8041/order/order/hello
+Zuul的安全与Header
+Zuul的过滤器生命周期：pre、route、post、error
+
+为了方便各个服务的配置文件统一管理，实时更新需配置中心：
+通过git服务器进行管理
+configClient(app-user等)--->configServer(infra-config)--->git
+此项目使用github托管配置文件(真实环境建议搭建私服)，通过配置钩子、以及activeMq通知各服务刷新配置文件
+
+Sleth
+Springboot Actuator实现微服务监控，Hystrix command可视化监控，确认系统瓶颈
+整合分布式追踪组件ELK(非常流行的基于日志的分析系统)
+整合Twitter的分布式追踪系统Zipkin(提供友好的界面)
+
+
+
+
+#友情链接
+JDK:https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+JCE:https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+PostMan:https://www.getpostman.com/downloads/
+Maven:http://maven.apache.org/download.cgi
+github:https://github.com/
+git:https://git-scm.com/downloads
+idea:http://www.jetbrains.com/idea/
+redis:https://redis.io/download
+mysql:https://dev.mysql.com/downloads/
+activeMq:http://activemq.apache.org/download.html
+Vmware:https://my.vmware.com/cn/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/15_0
+centos:https://www.centos.org/download/
+xshell:https://xshell.en.softonic.com/
+
 
 
 

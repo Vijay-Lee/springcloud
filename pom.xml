@@ -24,6 +24,8 @@
 		<module>infra-discovery</module>
 		<module>infra-hystrix</module>
 		<module>infra-gateway</module>
+		<module>infra-config</module>
+		<module>infra-zipkin</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
