@@ -3,6 +3,15 @@ Spring boot + Spring cloud实现微服务
 
 ## 项目说明  
 服务基于idea、jdk8 、Maven 、spring cloud Camden.SR7、docker、centos 7开发实现  
+启动顺序（建议run dashboard)：
+服务发现(diccovery):http://localhost:8761/
+网关(gateway):http://localhost:8041/routes
+配置(config):
+监控追踪(zipkin):http://localhost:9411/
+Hystrix监控(hystrix):http://localhost:8030/hystrix
+用户服务(user):http://localhost:9191/user/hello
+订单服务(order):http://localhost:9092/order/hello
+
 # Spring boot  
 集成logback日志处理、全局异常处理、Junit单元测试、Web、thymeleaf&&freemarker模板引擎  
 数据库采用mysql，数据访问采用Druid连接池，缓存采用Redis  
